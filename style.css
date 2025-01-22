@@ -466,7 +466,7 @@ input {
   width: 100%;
   overflow: hidden;
   position: relative;
-  top: 50vh;
+  top: 30vh;
   display: flex;
   justify-content: center; /* Centra el carrusel horizontalmente */
   align-items: center;
@@ -499,8 +499,8 @@ input {
 .dots {
   position: relative;
   bottom: 10px;
-  top: 330px;
-  left: 85%;
+  top: 340px;
+  left: 65%;
   transform: translateX(-50%);
   display: flex;
   gap: 8px;
