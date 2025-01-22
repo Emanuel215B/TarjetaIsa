@@ -316,8 +316,8 @@
     z-index: 2;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
 }
 
@@ -398,8 +398,8 @@ input {
     z-index: 2;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
    z-index: 3;
     background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
 }
@@ -614,8 +614,8 @@ input {
     z-index: 4;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
 }
 
