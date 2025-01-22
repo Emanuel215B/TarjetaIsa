@@ -1,0 +1,711 @@
+/*Fecha inicio*/
+.tittle {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    color: #cccccc;
+}
+
+/*Nombre de isabella*/
+.tittle2 {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Parisienne";
+    font-size: 3.7rem;
+    color: white;
+}
+
+/*Mis 15 años*/
+.tittle3 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #cccccc;
+}
+
+/*Frase*/
+.tittle4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/*Fondo verde*/
+.background-green {
+    position: relative; /* Asegura que se comporte de manera flexible */
+    width: 100%; /* Se extiende horizontalmente */
+    height: auto; /* Adapta su altura automáticamente */
+    display: flex;
+    background-color: #002D27; /* Color verde */
+    margin-top: -10px; /* Ajuste para evitar cualquier separación con el SVG */
+    padding-bottom: 450vh; /* Se extiende hasta cubrir el resto de la página */
+    z-index: 0; /* Asegúrate de que esté detrás de otros elementos */
+}
+
+
+/* Círculo */
+.center-container {
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle {
+    position: relative;
+    width: 45vw; /* Tamaño relativo al ancho de la pantalla */
+    height: 45vw; /* Mantiene una forma circular */
+    max-width: 300px; /* Establece un tamaño máximo */
+    max-height: 300px;
+    min-width: 200px; /* Establece un tamaño mínimo */
+    min-height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    text-align: center;
+    background: #004741;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.center-container {
+    z-index: 2
+}
+.circle .contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e8d4c4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw; /* Tamaño relativo al ancho de la pantalla */
+    text-align: center;
+}
+.circle hf {
+    font-size: 2.5vw; /* Tamaño relativo */
+    font-weight: bold;
+}
+#timer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+#timer div {
+    text-align: center;
+}
+#timer span {
+    display: block;
+    font-size: 3vw; 
+    font-weight: bold;
+    color: #ffdfb5;
+}
+#timer p {
+    margin: 0;
+    font-size: 2vw; /* Tamaño dinámico para las etiquetas */
+    color: #ffdfb5;
+    text-transform: uppercase;
+}
+.line {
+    width: 2px;
+    height: 50px;
+    background-color: #ffdfb5;
+}
+.circle .heart {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ff798f;
+}
+.circle {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    }
+}
+@media (max-width: 768px) {
+    .circle {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .circle .contenido {
+        font-size: 1vw;
+    }
+
+    #timer span {
+        font-size: 3vw;
+    }
+
+    #timer p {
+        font-size: 2vw;
+    }
+  .photos p7 {
+        top: 40px; /* Ajusta este valor según tus necesidades */
+        font-size: 5rem; /* Cambia el tamaño del texto en función del ancho de la ventana */
+    }
+
+    .carousel-container {
+        top: 40vh; /* Ajusta este valor según tus necesidades */
+    }
+}
+
+/*Fiesta*/
+.party h3{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+}
+
+/*Dia*/
+.party h4{
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+}
+.party p4{
+    position: absolute;
+    top: 152%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    z-index: 2;
+}
+
+/*Lugar*/
+.party h5{
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+}
+.party p5{
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    z-index: 2;
+}
+
+/*Direccion*/
+.party h6{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+}
+.party p6{
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    z-index: 2;
+}
+
+/*Botones*/
+/*Agendar*/
+.calendar-button {
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: black; /* Texto verde */
+    border: 2px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 150px;
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    transition: all 0.3s ease;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.calendar-button:hover {
+    background-color: #002d27; /* Fondo verde al pasar el mouse */
+    color: #ffffff; /* Texto blanco */
+}
+
+.assist-button {
+    position: absolute;
+    top: 193%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: black; /* Texto verde */
+    border: 2px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 104px;
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    transition: all 0.3s ease;
+    z-index: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.response-button.selected {
+    background-color: #002d27; /* Fondo verde cuando seleccionado */
+    color: #ffffff; /* Texto blanco */
+    border-color: #ffffff; /* Borde blanco cuando seleccionado */
+}
+
+.assist-button:hover {
+    background-color: #002d27; /* Fondo verde al pasar el mouse */
+    color: #ffffff; /* Texto blanco */
+}
+
+.modal {
+    display: none; /* Inicialmente está oculto */
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
+}
+
+.modal-content {
+    background-color: #004741;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+  color: white;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    transition: all 0.3s ease;
+    color: black;
+    border: 2px solid #ffffff; 
+}
+button:hover {
+    background-color: #002d27; /* Fondo verde al pasar el mouse */
+    color: #ffffff; /* Texto blanco */
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/*****************************/
+.arrive-button {
+    position: absolute;
+    top: 233%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: black; /* Texto verde */
+    border: 2px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 130px;
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    transition: all 0.3s ease;
+    z-index: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.arrive-button:hover {
+    background-color: #002d27; /* Fondo verde al pasar el mouse */
+    color: #ffffff; /* Texto blanco */
+}
+
+.modal2 {
+    display: none; /* Inicialmente está oculto */
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   z-index: 3;
+    background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
+}
+
+.modal2-content {
+    background-color: #004741;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+  color: white;
+}
+
+.map-frame {
+    width: 100%; /* Ocupa todo el ancho del modal */
+    height: 300px; /* Ajusta la altura según necesites */
+    border: 0;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.photos h7{
+    position: absolute;
+    top: 290%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7rem;
+    color: white;
+    z-index: 2;
+    white-space: nowrap;
+}
+.photos p7{
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: white;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 50vh;
+  display: flex;
+  justify-content: center; /* Centra el carrusel horizontalmente */
+  align-items: center;
+}
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%; /* Asegura espacio para mostrar las imágenes previas y siguientes */
+  justify-content: center;
+}
+.carousel-item {
+  flex: 0 0 calc(33% - 10px); /* Tres fotos por fila */
+  margin: 0 5px; /* Espacio entre fotos */
+  display: flex;
+  justify-content: center;
+  background-color: #004741; /* Marco inicial: verde */
+  padding: 20px 20px 60px;
+  border-radius: 0px;
+  transition: background-color 0.5s ease-in-out;
+}
+.carousel-item.active {
+  background-color: white; /* Cambia a blanco si está al centro */
+}
+.carousel-item img {
+  width: 100%; /* Ajusta las imágenes al contenedor */
+  height: auto;
+  border-radius: 5px;
+}
+
+.dots {
+  position: relative;
+  bottom: 10px;
+  top: 330px;
+  left: 85%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 3;
+  
+}
+@media (max-width: 768px) {
+    .photos h7 {
+        position: absolute;
+        top: 275%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Pinyon Script", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: white;
+        z-index: 5;
+        white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
+    }
+    .photos p7 {
+        position: absolute;
+        top: 285vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Playfair Display", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.15rem;
+        color: white;
+        z-index: 4;
+        white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
+    }
+    .carousel-container {
+        top: 40vh; /* Ajusta este valor según tus necesidades */
+    }
+    .dots {
+      top: 280px;
+    }
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.dot.active {
+  background-color: white;
+  opacity: 1;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 350px;
+    justify-content: center
+}
+.card {
+    background: #004741;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+    z-index: 3;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card2 {
+    background: #004741;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+    z-index: 3;
+}
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.dress-button {
+    background-color: #ffffff;
+    color: black; /* Texto verde */
+    border: 2px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 5px 30px;
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    transition: all 0.3s ease;
+    z-index: 1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dress-button:hover {
+    background-color: #002d27; /* Fondo verde al pasar el mouse */
+    color: #ffffff; /* Texto blanco */
+}
+
+.modal3 {
+    display: none; /* Inicialmente está oculto */
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
+}
+
+.modal3-content {
+    background-color: #004741;
+    margin: 15% auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+  color: white;
+}
+.modal3-content h2{
+    font-size: 3rem;
+    margin-bottom: 0px;
+    font-family: "Pinyon Script", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+    white-space: nowrap;
+}
+.modal3-content p{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+}
+.close3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card h2{
+    font-size: 3rem;
+    margin-bottom: 20;
+    font-family: "Pinyon Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+    white-space: nowrap;
+}
+.card p{
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 
+}
+
+.card2 h2{
+    font-size: 3rem;
+    margin-bottom: 110px;
+    font-family: "Pinyon Script", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+    white-space: nowrap;
+}
+.card2 p{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+}
