@@ -1,4 +1,10 @@
 /*Fecha inicio*/
+.full-width {
+      width: 100vw; /* Asegura que el elemento ocupe todo el ancho de la pantalla */
+      margin: 0;
+      padding: 0;
+      background-color: lightblue; /* Para que sea visible */
+    }
 .tittle {
     position: absolute;
     top: 8%;
