@@ -437,7 +437,7 @@ input {
 
 .photos h7{
     position: absolute;
-    top: 290%;
+    top: 350%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Pinyon Script", serif;
@@ -458,7 +458,7 @@ input {
     font-style: normal;
     font-size: 1.4rem;
     color: white;
-    z-index: 2;
+    z-index: -1;
     white-space: nowrap;
 }
 
@@ -466,7 +466,7 @@ input {
   width: 100%;
   overflow: hidden;
   position: relative;
-  top: 30vh;
+  top: 10vh;
   display: flex;
   justify-content: center; /* Centra el carrusel horizontalmente */
   align-items: center;
@@ -500,7 +500,7 @@ input {
   position: relative;
   bottom: 10px;
   top: 330px;
-  left: 85%;
+  left: 65%;
   transform: translateX(-50%);
   display: flex;
   gap: 8px;
