@@ -502,7 +502,7 @@ input {
 }
 
 .dots {
-  position: relative;
+  position: absolute;
   bottom: 10px;
   top: 130px;
   left: 85%;
