@@ -515,7 +515,7 @@ input {
 @media (max-width: 768px) {
     .photos h7 {
         position: absolute;
-        top: 320%;
+        top: 325%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: "Pinyon Script", serif;
