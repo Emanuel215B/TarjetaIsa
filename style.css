@@ -574,6 +574,7 @@ input {
     width: 200px;
     transition: transform 0.3s;
     z-index: 3;
+    box-sizing: border-box;
 }
 .card:hover {
     transform: scale(1.05);
@@ -586,6 +587,7 @@ input {
     width: 200px;
     transition: transform 0.3s;
     z-index: 3;
+    box-sizing: border-box;
 }
 .card2:hover {
     transform: scale(1.05);
