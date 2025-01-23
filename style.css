@@ -564,6 +564,7 @@ input {
     margin-top: 350px;
     justify-content: center
     max-width: 100vw;
+    flex-wrap: wrap;
 }
 .card {
     background: #004741;
