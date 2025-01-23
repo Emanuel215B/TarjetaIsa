@@ -540,7 +540,7 @@ input {
         white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
     }
     .carousel-container {
-        top: -100vh; /* Ajusta este valor según tus necesidades */
+        top: -90vh; /* Ajusta este valor según tus necesidades */
     }
     .dots {
       top: 2530px;
