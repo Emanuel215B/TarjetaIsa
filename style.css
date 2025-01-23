@@ -504,7 +504,7 @@ input {
 .dots {
   position: relative;
   bottom: 10px;
-  top: 330px;
+  top: 130px;
   left: 85%;
   transform: translateX(-50%);
   display: flex;
