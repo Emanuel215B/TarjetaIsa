@@ -554,6 +554,7 @@ input {
   opacity: 1;
 }
 
+
 .container {
     position: relative;
     display: flex;
@@ -561,24 +562,30 @@ input {
     text-align: center;
     align-items: center;
     margin-top: 350px;
-    justify-content: center;
-    max-width: 100vw;
-    flex-wrap: wrap; /* Permite que las tarjetas se reorganicen en pantallas más pequeñas */
+    justify-content: center
 }
-
-.card, .card2 {
+.card {
     background: #004741;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 90%; /* Porcentaje para adaptarse a pantallas pequeñas */
-    max-width: 300px; /* Máximo tamaño en pantallas grandes */
+    width: 200px;
     transition: transform 0.3s;
     z-index: 3;
-    box-sizing: border-box; /* Asegura que el padding esté incluido en el tamaño total */
 }
-
-.card:hover, .card2:hover {
+.card:hover {
+    transform: scale(1.05);
+}
+.card2 {
+    background: #004741;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+    z-index: 3;
+}
+.card2:hover {
     transform: scale(1.05);
 }
 
@@ -609,7 +616,6 @@ input {
     top: 0;
     width: 100%;
     height: 100%;
-    max-width: 100vw;
     background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
 }
 
@@ -620,11 +626,10 @@ input {
     border-radius: 5px;
     width: 80%;
     text-align: center;
-    color: white;
+  color: white;
 }
-
-.modal3-content h2 {
-    font-size: 2.5rem;
+.modal3-content h2{
+    font-size: 3rem;
     margin-bottom: 0px;
     font-family: "Pinyon Script", serif;
     font-weight: 100;
@@ -633,9 +638,8 @@ input {
     z-index: 1;
     white-space: nowrap;
 }
-
-.modal3-content p {
-    font-size: 0.5rem;
+.modal3-content p{
+    font-size: 1rem;
     margin-top: 20px;
     font-family: "Playfair Display", serif;
     font-weight: 100;
@@ -643,7 +647,6 @@ input {
     color: white;
     z-index: 1;
 }
-
 .close3 {
     color: #aaa;
     float: right;
@@ -651,15 +654,16 @@ input {
     font-weight: bold;
 }
 
-.close3:hover, .close3:focus {
+.close3:hover,
+.close3:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-.card h2, .card2 h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+.card h2{
+    font-size: 3rem;
+    margin-bottom: 20;
     font-family: "Pinyon Script", serif;
     font-weight: 400;
     font-style: normal;
@@ -667,11 +671,10 @@ input {
     z-index: 1;
     white-space: nowrap;
 }
-
-.card p, .card2 p {
+.card p{
     font-size: 1rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     font-family: "Playfair Display", serif;
     font-weight: 100;
     font-style: normal;
@@ -680,9 +683,30 @@ input {
 }
 
 .centered-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 
 }
+
+.card2 h2{
+    font-size: 3rem;
+    margin-bottom: 110px;
+    font-family: "Pinyon Script", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+    white-space: nowrap;
+}
+.card2 p{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    z-index: 1;
+}
+
