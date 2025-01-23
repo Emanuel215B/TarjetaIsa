@@ -515,7 +515,7 @@ input {
 @media (max-width: 768px) {
     .photos h7 {
         position: absolute;
-        top: 305%;
+        top: 250%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: "Pinyon Script", serif;
@@ -540,10 +540,10 @@ input {
         white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
     }
     .carousel-container {
-        top: 10vh; /* Ajusta este valor según tus necesidades */
+        top: -50vh; /* Ajusta este valor según tus necesidades */
     }
     .dots {
-      top: 270px;
+      top: 220px;
       left: 65%;
     }
 }
