@@ -325,12 +325,13 @@
 
 .modal-content {
     background-color: #004741;
-    margin: 15% auto;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
     width: 80%;
     text-align: center;
-  color: white;
+    color: white;
+    
 }
 
 .close {
@@ -410,7 +411,7 @@ input {
 
 .modal2-content {
     background-color: #004741;
-    margin: 15% auto;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
     width: 80%;
@@ -514,7 +515,7 @@ input {
 @media (max-width: 768px) {
     .photos h7 {
         position: absolute;
-        top: 310%;
+        top: 330%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: "Pinyon Script", serif;
@@ -624,14 +625,14 @@ input {
     top: 0;
     width: 100%;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
     background-color: rgba(0,0,0,0.7); /* Fondo oscuro */
 }
 
 .modal3-content {
     background-color: #004741;
-    margin: 15% auto;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 5px;
     width: 80%;
