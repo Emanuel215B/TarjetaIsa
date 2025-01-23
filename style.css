@@ -439,7 +439,7 @@ input {
 
 .photos h7{
     position: absolute;
-    top: 290%;
+    top: 310%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Pinyon Script", serif;
@@ -458,7 +458,7 @@ input {
     font-family: "Playfair Display", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 0.01rem;
     color: white;
     z-index: 2;
     white-space: nowrap;
