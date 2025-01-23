@@ -437,7 +437,7 @@ input {
 
 .photos h7{
     position: absolute;
-    top: 350%;
+    top: 280%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Pinyon Script", serif;
@@ -445,7 +445,7 @@ input {
     font-style: normal;
     font-size: 2.7rem;
     color: white;
-    z-index: 2;
+    z-index: 3;
     white-space: nowrap;
 }
 .photos p7{
@@ -458,7 +458,7 @@ input {
     font-style: normal;
     font-size: 1.4rem;
     color: white;
-    z-index: -1;
+    z-index: 3;
     white-space: nowrap;
 }
 
@@ -500,7 +500,7 @@ input {
   position: relative;
   bottom: 10px;
   top: 330px;
-  left: 65%;
+  left: 85%;
   transform: translateX(-50%);
   display: flex;
   gap: 8px;
@@ -510,7 +510,7 @@ input {
 @media (max-width: 768px) {
     .photos h7 {
         position: absolute;
-        top: 275%;
+        top: 310%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: "Pinyon Script", serif;
@@ -518,7 +518,7 @@ input {
         font-style: normal;
         font-size: 2.3rem;
         color: white;
-        z-index: 5;
+        z-index: 3;
         white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
     }
     .photos p7 {
@@ -531,14 +531,15 @@ input {
         font-style: normal;
         font-size: 1.15rem;
         color: white;
-        z-index: 4;
+        z-index: -1;
         white-space: nowrap; /* Cambia el tamaño del texto en función del ancho de la ventana */
     }
     .carousel-container {
-        top: 40vh; /* Ajusta este valor según tus necesidades */
+        top: 20vh; /* Ajusta este valor según tus necesidades */
     }
     .dots {
       top: 280px;
+      left: 65%;
     }
 }
 .dot {
