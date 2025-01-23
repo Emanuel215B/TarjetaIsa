@@ -504,7 +504,7 @@ input {
 .dots {
   position: absolute;
   bottom: 10px;
-  top: 130px;
+  top: 1030px;
   left: 85%;
   transform: translateX(-50%);
   display: flex;
@@ -543,7 +543,7 @@ input {
         top: -100vh; /* Ajusta este valor según tus necesidades */
     }
     .dots {
-      top: 130px;
+      top: 1030px;
       left: 65%;
     }
 }
