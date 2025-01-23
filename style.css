@@ -667,7 +667,7 @@ input {
 }
 
 .card h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20;
     font-family: "Pinyon Script", serif;
     font-weight: 400;
@@ -677,7 +677,7 @@ input {
     white-space: nowrap;
 }
 .card p{
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: "Playfair Display", serif;
@@ -696,7 +696,7 @@ input {
 }
 
 .card2 h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 110px;
     font-family: "Pinyon Script", serif;
     font-weight: 100;
@@ -706,7 +706,7 @@ input {
     white-space: nowrap;
 }
 .card2 p{
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-top: 20px;
     font-family: "Playfair Display", serif;
     font-weight: 100;
